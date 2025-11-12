@@ -40,6 +40,31 @@ To view, edit, or interact with the project file, you will need:
 
 ---
 
+## 📸 Screenshots
+Place your screenshots inside a folder named `/images` in the repo, then link them like this:
+
+#### Dashboard Overview
+<<img width="1327" height="745" alt="Screenshot 2025-11-12 150853" src="https://github.com/user-attachments/assets/072d1fb4-80e5-4a4a-b839-0a0a34ea8ce7" />
+/>
+
+
+
+#### Attrition Insights
+
+<<img width="1331" height="744" alt="Screenshot 2025-11-12 150908" src="https://github.com/user-attachments/assets/51b0bac3-7cc8-40af-8904-126313b8d6b3" />
+/>
+
+---
+
+## 📈 Key Insights
+- High attrition among entry-level employees.  
+- Employees with less than 3 years tenure show the highest turnover rate.  
+- Technical departments have the largest headcount but lowest retention.  
+- Strong positive correlation between performance rating and salary.  
+
+
+---
+
 ## 📅 Custom Date Table (DimDate)
 A custom date table was built in Power BI using DAX to enable advanced time intelligence calculations:
 
@@ -88,3 +113,4 @@ ADDCOLUMNS(
 "FiscalQuarter",QUARTER( DATE( YEAR([Date]),MOD( MONTH([Date])+ (13-_fiscalStart) -1 ,12) +1,1) ),
 "FiscalMonth",MOD( MONTH([Date])+ (13-_fiscalStart) -1 ,12) +1
 )
+```
