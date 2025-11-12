@@ -44,15 +44,13 @@ To view, edit, or interact with the project file, you will need:
 Place your screenshots inside a folder named `/images` in the repo, then link them like this:
 
 #### Dashboard Overview
-<<img width="1327" height="745" alt="Screenshot 2025-11-12 150853" src="https://github.com/user-attachments/assets/072d1fb4-80e5-4a4a-b839-0a0a34ea8ce7" />
-/>
+<img width="1327" height="745" alt="Screenshot 2025-11-12 150853" src="https://github.com/user-attachments/assets/072d1fb4-80e5-4a4a-b839-0a0a34ea8ce7" />
 
 
 
 #### Attrition Insights
 
-<<img width="1331" height="744" alt="Screenshot 2025-11-12 150908" src="https://github.com/user-attachments/assets/51b0bac3-7cc8-40af-8904-126313b8d6b3" />
-/>
+<img width="1331" height="744" alt="Screenshot 2025-11-12 150908" src="https://github.com/user-attachments/assets/51b0bac3-7cc8-40af-8904-126313b8d6b3" />
 
 ---
 
@@ -114,3 +112,4 @@ ADDCOLUMNS(
 "FiscalMonth",MOD( MONTH([Date])+ (13-_fiscalStart) -1 ,12) +1
 )
 ```
+
